@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 15px;
+    color: red;
+    cursor: pointer;
+}
+
+.hero {
+    height: 300px;
+    background-image: url("foto_artikel.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top: 5px solid red;
+    border-bottom: 5px solid lightblue;
+}
+
+.content {
+    padding: 30px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+.penulis {
+    font-size: 12px;
+    color: gray;
+}
+
+.penulis span {
+    color: red;
+}
